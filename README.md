@@ -12,10 +12,11 @@ nmt: This is a really extraordinary honor for me
 ```
 cd nmt-with-attention
 sudo pip install virtualenv
-virtualenv -p python3 .env
-source .env/bin/activate
-pip install -r requirements.txt
-pip install -r requirements_tf.txt
+virtualenv -p python3 .env          # Create environment
+source .env/bin/activate            # Activate environment
+pip install -r requirements.txt     # Install tf packages
+pip install -r requirements_tf.txt  # Install python packages
 jupyter notebook machine_translation_and_attention_tf.ipynb
-deactivate
+
+deactivate                          # Deactivate environnment
 ```
