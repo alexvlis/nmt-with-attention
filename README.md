@@ -10,7 +10,7 @@ nmt: This is a really extraordinary honor for me
 
 ## Installation: ##
 ```
-cd neural-machine-translation-with-attention/
+cd nmt-with-attention
 sudo pip install virtualenv
 virtualenv -p python3 .env
 source .env/bin/activate
